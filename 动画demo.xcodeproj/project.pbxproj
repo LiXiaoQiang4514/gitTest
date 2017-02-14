@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B92A8BEBC53E5402FF711D7 /* libPods-动画demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C69D8B32A77A9BACC4B273D6 /* libPods-动画demo.a */; };
 		B36DA5AA1E51969F0041F2AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DA5A91E51969F0041F2AC /* main.m */; };
 		B36DA5AD1E51969F0041F2AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DA5AC1E51969F0041F2AC /* AppDelegate.m */; };
 		B36DA5B01E51969F0041F2AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DA5AF1E51969F0041F2AC /* ViewController.m */; };
@@ -16,6 +17,7 @@
 		B36DA5BB1E51969F0041F2AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36DA5B91E51969F0041F2AC /* LaunchScreen.storyboard */; };
 		B36DA5C61E51969F0041F2AC /* __demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DA5C51E51969F0041F2AC /* __demoTests.m */; };
 		B36DA5D11E51969F0041F2AC /* __demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DA5D01E51969F0041F2AC /* __demoUITests.m */; };
+		B36DA5DF1E519C980041F2AC /* TwitterHeart.json in Resources */ = {isa = PBXBuildFile; fileRef = B36DA5DE1E519C980041F2AC /* TwitterHeart.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		112C9AAF1D022884E4EABAB1 /* Pods-动画demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-动画demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-动画demo/Pods-动画demo.debug.xcconfig"; sourceTree = "<group>"; };
+		6C0354A8526D1E73893B0127 /* Pods-动画demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-动画demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-动画demo/Pods-动画demo.release.xcconfig"; sourceTree = "<group>"; };
 		B36DA5A51E51969F0041F2AC /* 动画demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "动画demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B36DA5A91E51969F0041F2AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B36DA5AB1E51969F0041F2AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 		B36DA5CC1E51969F0041F2AC /* 动画demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "动画demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B36DA5D01E51969F0041F2AC /* __demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __demoUITests.m; sourceTree = "<group>"; };
 		B36DA5D21E51969F0041F2AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B36DA5DE1E519C980041F2AC /* TwitterHeart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TwitterHeart.json; sourceTree = "<group>"; };
+		C69D8B32A77A9BACC4B273D6 /* libPods-动画demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-动画demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B92A8BEBC53E5402FF711D7 /* libPods-动画demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		171A6850A82AFBC7FE003DF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				112C9AAF1D022884E4EABAB1 /* Pods-动画demo.debug.xcconfig */,
+				6C0354A8526D1E73893B0127 /* Pods-动画demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B36DA59C1E51969F0041F2AC = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +103,8 @@
 				B36DA5C41E51969F0041F2AC /* 动画demoTests */,
 				B36DA5CF1E51969F0041F2AC /* 动画demoUITests */,
 				B36DA5A61E51969F0041F2AC /* Products */,
+				171A6850A82AFBC7FE003DF1 /* Pods */,
+				D81A05D4B99E43A77FB1D924 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				B36DA5A91E51969F0041F2AC /* main.m */,
+				B36DA5DE1E519C980041F2AC /* TwitterHeart.json */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -143,6 +162,14 @@
 			path = "动画demoUITests";
 			sourceTree = "<group>";
 		};
+		D81A05D4B99E43A77FB1D924 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C69D8B32A77A9BACC4B273D6 /* libPods-动画demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B36DA5D51E51969F0041F2AC /* Build configuration list for PBXNativeTarget "动画demo" */;
 			buildPhases = (
+				AB574096C987A4011D40762A /* [CP] Check Pods Manifest.lock */,
 				B36DA5A11E51969F0041F2AC /* Sources */,
 				B36DA5A21E51969F0041F2AC /* Frameworks */,
 				B36DA5A31E51969F0041F2AC /* Resources */,
+				C88BD8BE722D97CA6648AF9B /* [CP] Embed Pods Frameworks */,
+				9EDD24A3AFE0D26CD1494E95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B36DA5DF1E519C980041F2AC /* TwitterHeart.json in Resources */,
 				B36DA5BB1E51969F0041F2AC /* LaunchScreen.storyboard in Resources */,
 				B36DA5B81E51969F0041F2AC /* Assets.xcassets in Resources */,
 				B36DA5B31E51969F0041F2AC /* Main.storyboard in Resources */,
@@ -267,6 +298,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9EDD24A3AFE0D26CD1494E95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-动画demo/Pods-动画demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB574096C987A4011D40762A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C88BD8BE722D97CA6648AF9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-动画demo/Pods-动画demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B36DA5A11E51969F0041F2AC /* Sources */ = {
@@ -413,9 +492,11 @@
 		};
 		B36DA5D61E51969F0041F2AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 112C9AAF1D022884E4EABAB1 /* Pods-动画demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "动画demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.basestonedata.--demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,9 +505,11 @@
 		};
 		B36DA5D71E51969F0041F2AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C0354A8526D1E73893B0127 /* Pods-动画demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "动画demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.basestonedata.--demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -500,6 +583,7 @@
 				B36DA5D71E51969F0041F2AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B36DA5D81E51969F0041F2AC /* Build configuration list for PBXNativeTarget "动画demoTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +592,7 @@
 				B36DA5DA1E51969F0041F2AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B36DA5DB1E51969F0041F2AC /* Build configuration list for PBXNativeTarget "动画demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +601,7 @@
 				B36DA5DD1E51969F0041F2AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
